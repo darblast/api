@@ -1,9 +1,9 @@
 {
-  "name": "@darblast/template",
+  "name": "@darblast/api",
   "version": "0.1.0",
   "description": "",
   "type": "module",
-  "main": "dist/template.js",
+  "main": "dist/api.js",
   "files": [
     "dist/"
   ],
@@ -16,18 +16,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/darblast/template.git"
+    "url": "git+https://github.com/darblast/api.git"
   },
   "author": "James Farrell <farrelljames558@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/darblast/template/issues"
+    "url": "https://github.com/darblast/api/issues"
   },
-  "homepage": "https://github.com/darblast/template#readme",
+  "homepage": "https://github.com/darblast/api#readme",
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.48.2",
     "@typescript-eslint/parser": "^5.48.2",
     "chai": "^4.3.7",
+    "chai-as-promised": "^7.1.1",
     "eslint": "^8.32.0",
     "eslint-config-prettier": "^8.6.0",
     "eslint-plugin-mocha": "^10.1.0",
@@ -35,5 +36,8 @@
     "prettier": "^2.8.3",
     "typedoc": "^0.23.24",
     "typescript": "^4.9.4"
+  },
+  "dependencies": {
+    "@darblast/utils": "^1.0.0"
   }
 }
