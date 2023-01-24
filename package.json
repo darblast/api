@@ -1,0 +1,39 @@
+{
+  "name": "@darblast/template",
+  "version": "0.1.0",
+  "description": "",
+  "type": "module",
+  "main": "dist/template.js",
+  "files": [
+    "dist/"
+  ],
+  "scripts": {
+    "eslint": "npx eslint .",
+    "prettier": "npx prettier .",
+    "build": "tsc -p tsconfig.json",
+    "test": "tsc -p tsconfig.json && npx mocha",
+    "typedoc": "npx typedoc src/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darblast/template.git"
+  },
+  "author": "James Farrell <farrelljames558@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/darblast/template/issues"
+  },
+  "homepage": "https://github.com/darblast/template#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.48.2",
+    "@typescript-eslint/parser": "^5.48.2",
+    "chai": "^4.3.7",
+    "eslint": "^8.32.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-mocha": "^10.1.0",
+    "mocha": "^10.2.0",
+    "prettier": "^2.8.3",
+    "typedoc": "^0.23.24",
+    "typescript": "^4.9.4"
+  }
+}
